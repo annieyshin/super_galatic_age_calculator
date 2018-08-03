@@ -22,9 +22,9 @@ npm install
 ```
 npm run start
 ```
-* Run ESLint
+* Run Karma
 ```
-npm run lint
+npm run test
 ```
 
 ## Contribution Requirements
