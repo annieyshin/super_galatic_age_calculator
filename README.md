@@ -8,7 +8,7 @@
 <hr/>
 ## Description
 
-Site building exercise for Javascript that introduces npm, Webpack, adn ES6 in building a journal entry form. Other features include a word counter, vowel and or consonant counter.
+JavaScript coding exercise that utilizes npm, Webpack, ES6, Jasmine, Karma, and various dependencies in building an age calculator website. Other features include calculating age for different planets in the solar system, returning age in seconds, predicting life expectancy, and returning years over life expectancy if the person has exceeded the age average for their particular demographic.
 
 ## Setup
 
@@ -45,4 +45,4 @@ npm run lint
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2018 **Nick Brown and Annie Shin**
+Copyright (c) 2018 ** Annie Shin**
