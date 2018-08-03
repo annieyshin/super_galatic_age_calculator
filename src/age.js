@@ -4,17 +4,17 @@ class Age {
   }
 
   ageConverter() {
-
-    let birthdate = this.birthdate;
-    let ageYears = this.ageYearCalculator();
-
-  }
-
-  ageYearCalculator() {
-    let birthdate = this.birthdate;
-
+    let start = Date.now();
+    let birthAge = new Date();
+    return start;
 
   }
+
+  // ageYearCalculator() {
+  //   let birthdate = this.birthdate;
+  //
+  //
+  // }
 
 }
 

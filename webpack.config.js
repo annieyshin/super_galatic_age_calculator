@@ -17,7 +17,7 @@ module.exports = {
     new UglifyJsPlugin({ sourceMap: true }),
     new CleanWebpackPlugin(['dist']),
     new HtmlWebpackPlugin({
-      title: 'super_galatic',
+      title: 'super_galatic_age_calculator',
       template: './src/index.html',
       inject: 'body'
     })
@@ -32,10 +32,24 @@ module.exports = {
         ]
       },
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: "eslint-loader"
-      }
+       test: /\.js$/,
+       exclude: [
+         /node_modules/,
+         /spec/
+       ],
+       loader: "eslint-loader"
+     },
+     {
+       test: /\.js$/,
+       exclude: [
+         /node_moduels/,
+         /spec/
+       ],
+       loader: "babel-loader",
+       options: {
+         presets: ['es2015']
+       }
+     }
     ]
   }
 };

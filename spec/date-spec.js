@@ -1,10 +1,10 @@
-import { Age } from './../src/date.js'
+import { Age } from './../src/age.js';
 
 describe('Age', function() {
   it('should return the age of a person in years by inputted birthdate', function() {
-      let newAge = new Age(08/08/1990);
-      expect(newAge.ageConverter()).toEqual(27);
-    })
+    let newAge = new Age("08/08/1990");
+    expect(newAge.ageConverter()).toEqual(27);
+  })
 
     // it('should return the age of a person in seconds by inputted birthdate', function() {
     //     let newAge = new Age(08/08/2008);
