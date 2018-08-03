@@ -12,10 +12,9 @@ JavaScript coding exercise that utilizes npm, Webpack, ES6, Jasmine, Karma, and 
 
 ## Setup
 
-* Install Node.js
 * Clone the repo
-* Type the following commands into the terminal
-* Install dependencies
+* Install npm (Node package manager)
+* Type the following commands into the terminal to install dependencies
 ```
 npm install
 ```
