@@ -1,6 +1,5 @@
 class Age {
-  constructor(age) {
-    this.age = age;
+  constructor(birthdate) {
     this.birthdate = birthdate;
   }
 
