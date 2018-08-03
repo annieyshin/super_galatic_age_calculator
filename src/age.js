@@ -1,12 +1,14 @@
 class Age {
-  constructor(birthdate) {
-    this.birthdate = birthdate;
+  constructor(age) {
+    this.age = age;
   }
 
   ageConverter() {
-    let start = Date.now();
-    let birthAge = new Date();
-    return start;
+    let date = new Date();
+    let endDate = date.getTime();
+
+
+    return date;
 
   }
 
